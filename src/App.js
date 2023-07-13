@@ -60,7 +60,7 @@ const particlesLoaded = useCallback(async container => {
                         width: 1,
                     },
                     collisions: {
-                        enable: true,
+                        enable: false,
                     },
                     move: {
                         direction: "down",
